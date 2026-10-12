@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAB 5 - CSS Layout & Box Model</title>
+    <link rel="stylesheet" href="b5.css">
+</head>
+<body>
+
+    <div class="navbar">
+         Navbar Fixed - Selalu di atas saat scroll
+    </div>
+
+    <div class="content">
+
+        
+        <div class="section-header">
+             Section Header Sticky - Menempel saat scroll
+        </div>
+
+        
+        <div class="section">
+            <h3>1. Position: Relative</h3>
+            <p>Kotak di bawah ini digeser 10px ke bawah dan 20px ke kanan dari posisi aslinya.</p>
+            <div class="kotak-relative">
+                Kotak Relative<br>
+                (top: 10px, left: 20px)
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>2. Position: Absolute</h3>
+            <p>Badge merah di pojok kanan atas menggunakan position: absolute terhadap parent-nya.</p>
+            <div class="parent">
+                Parent (position: relative)
+                <div class="badge">3</div>
+            </div>
+        </div>
+
+        
+        <div class="spacer">
+            Scroll ke bawah untuk melihat efek Fixed & Sticky
+        </div>
+
+        <div class="section">
+            <h3>3. Position: Fixed</h3>
+            <p>Navbar biru di atas tetap terlihat meskipun Anda scroll ke bawah. Itu karena menggunakan <code>position: fixed</code>.</p>
+        </div>
+
+        <div class="section">
+            <h3>4. Position: Sticky</h3>
+            <p>Section header akan menempel di posisi 60px dari atas viewport saat Anda scroll melewatinya.</p>
+        </div>
+
+        <div class="spacer">
+            Terus scroll... ⬇️
+        </div>
+
+        <div class="section">
+            <h3>Ringkasan CSS Position</h3>
+            <p><strong>static</strong> - Posisi default, mengalir normal.</p>
+            <p><strong>relative</strong> - Geser dari posisi asli, tetap menempati ruang.</p>
+            <p><strong>absolute</strong> - Keluar dari alur, posisi relatif ke parent terdekat yang bukan static.</p>
+            <p><strong>fixed</strong> - Tetap di layar, tidak bergerak saat scroll.</p>
+            <p><strong>sticky</strong> - Mengalir normal lalu menempel saat mencapai posisi tertentu.</p>
+        </div>
+
+        <div class="spacer">
+            Akhir halaman ✅
+        </div>
+
+    </div>
+
+</body>
+</html>
