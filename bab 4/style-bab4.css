@@ -1,0 +1,51 @@
+h1 {
+            color: #02273f;
+            border-bottom: 2px solid #084268;
+            text-align: center;
+            font-size: 60px;
+}
+.highlight {
+            background-color: #95ccdd;
+            color: rgb(10, 10, 10);
+            padding: 20px; 
+            height: 130px;
+            width: 50%; 
+            border-radius: 16px;
+}
+.a {
+    background-color: #95ccdd;
+    color: rgb(10, 10, 10);
+    padding: 20px;
+    border-radius: 18px;  
+    height: 270px;
+    width: 30%; 
+}
+
+h2, h3, h4 {
+            font-family: 'Georgia',  serif;
+            color: #1a5276;
+}
+a:hover {
+        color: rgb(252, 2, 231);
+        text-decoration:slateblue;
+}
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+.gambar {
+    position: absolute;
+    left: 550px;
+    top: 380px;
+    width: 500px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: grab;
+    user-select: none;
+}
+
+.gambar:active {
+    cursor: grabbing;
+}

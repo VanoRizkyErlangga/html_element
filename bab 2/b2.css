@@ -1,0 +1,28 @@
+.judul {
+    text-align: center;
+    color :blue;
+    padding: 10px;
+    font-size: 35px;
+    font-family: Arial, sans-serif;
+}
+.panduan {
+    padding-top: -400px;
+    padding-bottom: 80px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+.kotak {
+   padding: 20px; 
+}
+.kotak-1 {
+    padding: 25px; 
+    background-color: #2295c1;
+    border-radius: 10px;
+    border: 2px solid #000;
+    margin: 30px
+}
+nav li {
+    display: inline-block;
+    margin-right: 10px;
+}
